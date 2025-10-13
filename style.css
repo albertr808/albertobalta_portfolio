@@ -14,8 +14,8 @@ header {
     padding: 120px 20px;
     text-align: center;
     background-color: #3776be;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 header h1 {
@@ -190,4 +190,66 @@ footer {
     font-size: 0.85rem;
     margin-top: 8px;
     color: #8b949e;
+}
+/* blog */
+
+.blog-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-bottom: 2rem;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.blog-card-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-card .card-body .category {
+    background-color: rgba(88, 166, 255, 0.1);
+    color: #58a6ff;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.blog-card .card-title {
+    color: #e6edf3;
+}
+
+.blog-card .card-text {
+    color: #8b949e;
+}
+
+.btn-custom {
+    border-radius: 25px;
+    padding: 8px 18px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+}
+
+.fechapubli{
+    font-style: italic;
+    color: whitesmoke;
+    font-size: 80%;
+}
+
+.blogheader{
+     padding: 80px 20px;
+    text-align: center;
+    background-color: #3776be;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
